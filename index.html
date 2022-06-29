@@ -16,15 +16,16 @@
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
       </script>
+       
+
+
 </head>       
 <body>
     <header>
-        <h2>디포피디아</h2>
-        <h3>인덱스</h3>
+        <p>디포피디아</p>
+        <p>인덱스</p>
     </header>
-    <div class="about">
-        <marquee>디포피디아 소개</marquee>
-    </div>
+   
     <div class="container">
     <section id="p1">
         <p>아이보리 빛깔.</p>
@@ -50,8 +51,10 @@
     </section>
     <div class="button">작품 보기</div>
     <section id="img1" class="imgContainer">
-        <img src="img/1.jpg" class="img">
+    <img src="img/1.jpg" class="img">
     </section>
 </div>
 </body>
+<script type="text/javascript" 
+       src="app.js">  </script>  
 </html>

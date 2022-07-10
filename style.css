@@ -9,9 +9,11 @@ margin-left: 2%;
     margin-right: 2%;
 }
 
+
 .wrapper{
     display: grid;
-    grid-template-columns: minmax(1%, 40%) minmax(80vw,1fr) minmax(1%,40%);
+    grid-template-columns: minmax(1%, 40%) minmax(90vw,1fr) minmax(1%,40%);
+    height: 100%;
 }
 header{
     display: flex;
@@ -22,6 +24,7 @@ header{
     top: 0%;
     margin-bottom: 1vw;
     padding: 0.5vw;
+    z-index: 9;
 }
 
 header > p {
@@ -49,12 +52,23 @@ section{
 
 .pages{
     padding: 2%;
-    
 }
 
 
 #p2-1, #p2-1-1, #p2-1-2{
     background-color: rgb(250, 205, 205);
+}
+
+#p2-2-1 {
+    background-color: rgb(254, 231, 202);
+}
+
+#p2-3-1{
+    background-color: rgb(116, 187, 250);
+}
+
+#p2-4-1{
+    background-color: rgb(227, 230, 234);
 }
 
 
@@ -150,6 +164,8 @@ section{
             text-underline-position: under;
 
              cursor: pointer;
+             
+             margin-bottom: 10vh;
         }
 
 
@@ -157,6 +173,8 @@ section{
             position: relative;
             top:15%;
         }
+
+       
 @media screen and (max-width: 1200px) {
     .wrapper{
         display: block;

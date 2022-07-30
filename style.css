@@ -60,35 +60,36 @@ section{
 
 
 #p2-1, #p2-1-1, #p2-1-2{
-    background-color: rgb(250, 205, 205);
+    background-color: #facdcd;
+    
 }
 
 #p2-2-1 {
-    background-color: rgb(254, 231, 202);
+    background-color: #fee7ca;
 }
 
 #p2-3-1{
-    background-color: rgb(116, 187, 250);
+    background-color: #74bbfa;
 }
 
 #p2-4-1{
-    background-color: rgb(227, 230, 234);
+    background-color: #e3e6ea;
 }
 
 
 
 #p1{
-    background-color: rgb(249, 242, 235);
+    background-color: #f9f2eb;
 }
 
 #p2{
-    background-color: rgb(190, 190, 177);
+    background-color: #bebeb1;
 }
 #p3{
-    background-color: rgb(215, 233, 240);
+    background-color: #d7e9f0;
 }
 #p4{
-    background-color: rgb(232, 230, 230);
+    background-color: #e8e6e6;
 }
 
 
@@ -104,7 +105,7 @@ section{
 }
 
 .secondImgContainer{
-    padding-top: 1vw;
+    padding-top: 0vw;
 }
 
 .button{
@@ -115,9 +116,9 @@ section{
 }
 
 .textButton{
-   
+    margin-top: 2%;
     margin-bottom: 2%;
-
+    padding: 0.5%;
    
 }
 
@@ -131,6 +132,7 @@ section{
     display: flex;
     align-items: center;
     margin: 2%;
+   
 }
 
 .caption{
@@ -177,6 +179,46 @@ section{
             top:10%;
         }
 
+        .videoSection{
+            position: absolute;
+            z-index: 10;
+            height: 30vh;
+        }
+        .videoWrapper{
+            position: relative;
+            height: 30vh;
+        }
+
+        input[type=text]{
+            width: 90%;
+            height: 2.5vh;
+            border-radius: 10px;
+            margin: 1%;
+        }
+
+        input[type=submit]{
+            width: 15%;
+            height: 2.5vh;
+            margin: 1vh 0;
+            
+        }
+
+        .form{
+            border-top: 1px solid black;
+            padding-top: 2%;
+        }
+        .form p{
+            margin-block-start: 0.5em;
+            margin-block-end: 0em;
+        }
+
+        .audioWrapper{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        
        
 @media screen and (max-width: 1200px) {
     .wrapper{
